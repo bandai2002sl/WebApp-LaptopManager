@@ -1,0 +1,17 @@
+﻿@{
+   
+    ViewData["Title"] = "Home Page";
+}
+@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+
+@inject UserManager<IdentityUser> UserManager
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome
+            <p>Trang web quản lý bán hàng</p>
+        </h1>
+    </div>
+
+
